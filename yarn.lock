@@ -1351,15 +1351,6 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@stryker-mutator/api@4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-4.5.0.tgz#2fe7480770d5de7be7a41c89d32e0daaf3af8760"
-  integrity sha512-TdUarItFVXmO/xBksaTOyYDlTV/5GjGe6E7xdLvD8WkP6Ii6EgHk7gL0qN+d+3iKBTTcrDK/tO7r6zvlEqCzOg==
-  dependencies:
-    mutation-testing-report-schema "~1.5.2"
-    surrial "~2.0.2"
-    tslib "~2.1.0"
-
 "@stryker-mutator/api@4.6.0":
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-4.6.0.tgz#63ac7d79c2f33c4962e06d14cde88c8471459a84"
@@ -1420,22 +1411,15 @@
     angular-html-parser "~1.8.0"
     weapon-regex "~0.4.1"
 
-"@stryker-mutator/jest-runner@^4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-4.5.0.tgz#1f7f2a59715675b864115dfbdd410fb9355a1687"
-  integrity sha512-ilOtxke9dScb//vyeACgyQhSpjKCKg2ENqqQPRWMCDF5hHFB8xWeXdHq2k2yam7N0hgTWE477KHx7yIGN278xw==
+"@stryker-mutator/jest-runner@^4.6.0":
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-4.6.0.tgz#b8bbee52b480d5027acb466901a55c3eec370c5a"
+  integrity sha512-jalnR1euHkBl86iGOWJRaNfQtbExnGHmxywKOMZj71HqzvjrHPA1fLdlzXeRu54aasnq7PvLE+m8OY1p0A3gpA==
   dependencies:
-    "@stryker-mutator/api" "4.5.0"
-    "@stryker-mutator/util" "4.5.0"
+    "@stryker-mutator/api" "4.6.0"
+    "@stryker-mutator/util" "4.6.0"
     semver "~6.3.0"
-    tslib "~2.1.0"
-
-"@stryker-mutator/util@4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-4.5.0.tgz#2e1fefc6de12d929d19c05c61880aad33dca8f11"
-  integrity sha512-K3UhOD4ropWGsbHhttNjIuQLRKTpov5YxJSWzasHzwqKgKJw6xJ7eMroCLwBOVk0Zd2J4Y31aKLCmvH8soJzDA==
-  dependencies:
-    lodash.flatmap "~4.5.0"
+    tslib "~2.2.0"
 
 "@stryker-mutator/util@4.6.0":
   version "4.6.0"
@@ -5617,11 +5601,6 @@ tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
-
-tslib@~2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
-  integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
 
 tslib@~2.2.0:
   version "2.2.0"
