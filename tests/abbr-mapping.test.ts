@@ -1,14 +1,14 @@
 import abbreviations from '../src';
 
-describe('Rune mapping tests', () => {
-  test('Returns map of runes to letters', () => {
+describe('Abbreviation mapping tests', () => {
+  test('Returns map of abbreviations to words / definitions', () => {
     const resultMap = abbreviations.getAbbreviationMapping();
 
     expect(typeof resultMap).toBe('object');
     expect(resultMap instanceof Map).toBeTruthy();
   });
 
-  test('Abbreviations in map have matching words', () => {
+  test('Abbreviations in map expected content', () => {
     const resultMap = abbreviations.getAbbreviationMapping();
 
     expect(resultMap.get('absol.')).toBe('absolute, absolutely.');
