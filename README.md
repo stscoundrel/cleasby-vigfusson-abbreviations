@@ -5,8 +5,8 @@ Map abbreviations to full length words from Cleasby & Vigfusson dictionary.
 Cleasby & Vigfusson is full of abbreviations meant to save space in print. While working with online versions of the same source material, there is little use for these abbreviations. This library helps you map them back to their full length equilevants.
 
 Related projects:
-[Cleasby & Vigfusson Dictionary](https://github.com/stscoundrel/cleasby-vigfusson-dictionary)
-[Cleasby & Vigfusson in Next.js](https://github.com/stscoundrel/cleasby-vigfusson-next)
+- [Cleasby & Vigfusson Dictionary](https://github.com/stscoundrel/cleasby-vigfusson-dictionary).
+- [Cleasby & Vigfusson in Next.js](https://github.com/stscoundrel/cleasby-vigfusson-next).
 
 ### Install
 
