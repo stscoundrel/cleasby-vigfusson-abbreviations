@@ -165,7 +165,7 @@ describe('Works & authors abbr mapping tests', () => {
     expect(resultMap.get('Korm.')).toBe('Kormaks Saga. (D. II.)');
     expect(resultMap.get('Kristni S. or Kr. S.')).toBe('Kristni Saga. (D. I. III.)');
     expect(resultMap.get('Krók.')).toBe('Króka Refs Saga. (D. V.)');
-    expect(resultMap.get('K. Þ. K.')).toBe('Kristinn-réttr Þorláks ok Ketils');
+    expect(resultMap.get('K. Þ. K.')).toBe('Kristinn-réttr Þorláks ok Ketils = Kristinna-laga-þáttr. (B. I.)');
     expect(resultMap.get('Landn.')).toBe('Landnáma. (D. I.)');
     expect(resultMap.get('Laur. S.')).toBe('Laurentius Saga. (D. III.)');
     expect(resultMap.get('Ld.')).toBe('Laxdæla Saga. (D. II.)');

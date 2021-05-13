@@ -154,7 +154,7 @@ export const getWorksAndAuthorsMapping = (): Map<string, string> => {
   worksAndAuthorsMapping.set('Korm.', 'Kormaks Saga. (D. II.)');
   worksAndAuthorsMapping.set('Kristni S. or Kr. S.', 'Kristni Saga. (D. I. III.)');
   worksAndAuthorsMapping.set('Krók.', 'Króka Refs Saga. (D. V.)');
-  worksAndAuthorsMapping.set('K. Þ. K.', 'Kristinn-réttr Þorláks ok Ketils', 'Kristinna-laga-þáttr. (B. I.)');
+  worksAndAuthorsMapping.set('K. Þ. K.', 'Kristinn-réttr Þorláks ok Ketils = Kristinna-laga-þáttr. (B. I.)');
   worksAndAuthorsMapping.set('Landn.', 'Landnáma. (D. I.)');
   worksAndAuthorsMapping.set('Laur. S.', 'Laurentius Saga. (D. III.)');
   worksAndAuthorsMapping.set('Ld.', 'Laxdæla Saga. (D. II.)');
