@@ -1,5 +1,5 @@
-export const example = (): string => 'test string';
+import { getAbbreviationMapping } from './mappings/abbr-mapping';
 
 export default {
-  example,
+  getAbbreviationMapping,
 };
