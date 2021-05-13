@@ -1,4 +1,5 @@
 import { getAbbreviationMapping } from './mappings/abbr-mapping';
+import { getWorksAndAuthorsMapping } from './mappings/works-and-authors';
 
 export const findAbbreviations = (content: string) : string[] => {
   const result: string[] = [];
@@ -15,5 +16,6 @@ export const findAbbreviations = (content: string) : string[] => {
 
 export default {
   getAbbreviationMapping,
+  getWorksAndAuthorsMapping,
   findAbbreviations,
 };
