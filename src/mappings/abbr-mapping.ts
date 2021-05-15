@@ -92,7 +92,7 @@ export const getAbbreviationMapping = (): Map<string, string> => {
   abbreviationMapping.set('Lith.', 'Lithuanian.');
   abbreviationMapping.set('Litt.', 'Littonian.');
   abbreviationMapping.set('loc.', 'local, locally.');
-  abbreviationMapping.set('m..', 'masculine.');
+  abbreviationMapping.set('m.', 'masculine.');
   abbreviationMapping.set('masc.', 'masculine.');
   abbreviationMapping.set('medic.', 'medicine, medically.');
   abbreviationMapping.set('metaph.', 'metaphorical, metaphorically.');

@@ -102,7 +102,7 @@ describe('Abbreviation mapping tests', () => {
     expect(resultMap.get('Lith.')).toBe('Lithuanian.');
     expect(resultMap.get('Litt.')).toBe('Littonian.');
     expect(resultMap.get('loc.')).toBe('local, locally.');
-    expect(resultMap.get('m..')).toBe('masculine.');
+    expect(resultMap.get('m.')).toBe('masculine.');
     expect(resultMap.get('masc.')).toBe('masculine.');
     expect(resultMap.get('medic.')).toBe('medicine, medically.');
     expect(resultMap.get('metaph.')).toBe('metaphorical, metaphorically.');
