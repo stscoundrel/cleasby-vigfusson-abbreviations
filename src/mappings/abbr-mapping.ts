@@ -24,7 +24,8 @@ export const getAbbreviationMapping = (): Map<string, string> => {
   abbreviationMapping.set('cognom.', 'cognomen.');
   abbreviationMapping.set('collect.', 'collective.');
   abbreviationMapping.set('compar.', 'comparative.');
-  abbreviationMapping.set('compd, compds', 'compound, compounds.');
+  abbreviationMapping.set('compd.', 'compound.');
+  abbreviationMapping.set('compds.', 'compounds.');
   abbreviationMapping.set('conj.', 'conjunction.');
   abbreviationMapping.set('contr.', 'contracted.');
   abbreviationMapping.set('corresp.', 'corresponding.');
