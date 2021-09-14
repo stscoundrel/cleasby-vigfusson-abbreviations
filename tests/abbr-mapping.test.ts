@@ -34,7 +34,6 @@ describe('Abbreviation mapping tests', () => {
     expect(resultMap.get('cognom.')).toBe('cognomen.');
     expect(resultMap.get('collect.')).toBe('collective.');
     expect(resultMap.get('compar.')).toBe('comparative.');
-    expect(resultMap.get('compd, compds')).toBe('compound, compounds.');
     expect(resultMap.get('conj.')).toBe('conjunction.');
     expect(resultMap.get('contr.')).toBe('contracted.');
     expect(resultMap.get('corresp.')).toBe('corresponding.');

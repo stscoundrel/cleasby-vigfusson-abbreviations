@@ -52,4 +52,16 @@ describe('Abbreviation finder', () => {
 
     expect(result).toEqual(expected);
   });
+
+  test('Finds compund abbreviations (Issue #64)', () => {
+    const content = 'Lorem ipsum dolor sit compd. dolor sit compds.';
+    const expected = new Map();
+
+    expected.set('compd.', 'compound.');
+    expected.set('compds.', 'compounds.');
+
+    const result = findAbbreviations(content);
+
+    expect(result).toEqual(expected);
+  });
 });
