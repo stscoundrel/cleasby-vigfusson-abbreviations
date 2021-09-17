@@ -64,4 +64,16 @@ describe('Abbreviation finder', () => {
 
     expect(result).toEqual(expected);
   });
+
+  test('Finds "Ormul" abbreviations (Issue #67)', () => {
+    const content = 'Lorem ipsum Ormul. dolor sit';
+    const expected = new Map();
+
+    expected.set('Ormul.', 'Ormulum.');
+    expected.set('l.', 'line.');
+
+    const result = findAbbreviations(content);
+
+    expect(result).toEqual(expected);
+  });
 });

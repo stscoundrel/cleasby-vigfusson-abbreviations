@@ -121,7 +121,7 @@ export const getAbbreviationMapping = (): Map<string, string> => {
   abbreviationMapping.set('obsol.', 'obsolete.');
   abbreviationMapping.set('O. H. G.', 'Old High German.');
   abbreviationMapping.set('opp.', 'opposed.');
-  abbreviationMapping.set('Ormul..', 'Ormulum.');
+  abbreviationMapping.set('Ormul.', 'Ormulum.');
   abbreviationMapping.set('Orm.', 'Ormulum.');
   abbreviationMapping.set('part.', 'participle.');
   abbreviationMapping.set('partic.', 'particularly.');
