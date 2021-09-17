@@ -129,7 +129,7 @@ describe('Abbreviation mapping tests', () => {
     expect(resultMap.get('obsol.')).toBe('obsolete.');
     expect(resultMap.get('O. H. G.')).toBe('Old High German.');
     expect(resultMap.get('opp.')).toBe('opposed.');
-    expect(resultMap.get('Ormul..')).toBe('Ormulum.');
+    expect(resultMap.get('Ormul.')).toBe('Ormulum.');
     expect(resultMap.get('Orm.')).toBe('Ormulum.');
     expect(resultMap.get('part.')).toBe('participle.');
     expect(resultMap.get('partic.')).toBe('particularly.');
