@@ -12,7 +12,8 @@ export const getWorksAndAuthorsMapping = (): Map<string, string> => {
   worksAndAuthorsMapping.set('Anecd.', 'Anecdoton. (H. II.)');
   worksAndAuthorsMapping.set('Ann.', 'Íslenzkir Annálar. (D. IV.)');
   worksAndAuthorsMapping.set('Ant. S.', 'Antonius Saga. (F. III.)');
-  worksAndAuthorsMapping.set('Arna-Magn. or A. M.', 'Arna-Magnacanus.');
+  worksAndAuthorsMapping.set('Arna-Magn.', 'Arna-Magnacanus.');
+  worksAndAuthorsMapping.set('A. M.', 'Arna-Magnacanus.');
   worksAndAuthorsMapping.set('Arons S.', 'Arons Saga. (D. III.)');
   worksAndAuthorsMapping.set('Art.', 'Artus-kappa Sögur. (G. II.)');
   worksAndAuthorsMapping.set('Aug.', 'Augustinus Saga. (F. III.)');
@@ -106,7 +107,8 @@ export const getWorksAndAuthorsMapping = (): Map<string, string> => {
   worksAndAuthorsMapping.set('Hdl.', 'Hyndlu-ljóð. (A. II.)');
   worksAndAuthorsMapping.set('Hðm.', 'Hamðis-mál. (A. II.)');
   worksAndAuthorsMapping.set('H. E.', 'Historia Ecclesiastica Islandiae. (J. I.)');
-  worksAndAuthorsMapping.set('Heiðarv. S. or Heið. S.', 'Heiðarvíga Saga. (D. II.)');
+  worksAndAuthorsMapping.set('Heiðarv. S.', 'Heiðarvíga Saga. (D. II.)');
+  worksAndAuthorsMapping.set('Heið. S.', 'Heiðarvíga Saga. (D. II.)');
   worksAndAuthorsMapping.set('Helr.', 'Helreið Brynhildar. (A. II.)');
   worksAndAuthorsMapping.set('Hem.', 'Hemings-þáttr. (C. H.)');
   worksAndAuthorsMapping.set('Hervar. S.', 'Hervarar Saga. (C. II.)');
@@ -123,7 +125,8 @@ export const getWorksAndAuthorsMapping = (): Map<string, string> => {
   worksAndAuthorsMapping.set('Hs.', 'Harm-sol. (A. III.)');
   worksAndAuthorsMapping.set('Hsm.', 'Hugsvinns-mál. (A. III.)');
   worksAndAuthorsMapping.set('Ht.', 'Hátta-tal. (C. I.)');
-  worksAndAuthorsMapping.set('Hung. or Hv.', 'Hungr-vaka. (D. III)');
+  worksAndAuthorsMapping.set('Hung.', 'Hungr-vaka. (D. III)');
+  worksAndAuthorsMapping.set('Hv.', 'Hungr-vaka. (D. III)');
   worksAndAuthorsMapping.set('Húst.', 'Hús-tafla.');
   worksAndAuthorsMapping.set('Hým.', 'Hýmis-kviða. (A. I.)');
   worksAndAuthorsMapping.set('Hænsaþ.', 'Hænsa-Þóris Saga. (D. II.)');
@@ -139,7 +142,8 @@ export const getWorksAndAuthorsMapping = (): Map<string, string> => {
   worksAndAuthorsMapping.set('Jd.', 'Jómsvíkinga-drápa. (A. III.)');
   worksAndAuthorsMapping.set('Jm.', 'Jóns-máldagi. (J. I.)');
   worksAndAuthorsMapping.set('Jóh.', 'Jóhannes Saga. (F. III.)');
-  worksAndAuthorsMapping.set('Jómsv. S. or Jv.', 'Jómsvíkinga Saga. (E. I.)');
+  worksAndAuthorsMapping.set('Jómsv. S.', 'Jómsvíkinga Saga. (E. I.)');
+  worksAndAuthorsMapping.set('Jv.', 'Jómsvíkinga Saga. (E. I.)');
   worksAndAuthorsMapping.set('Jónas', 'Jónas Hallgrímsson.');
   worksAndAuthorsMapping.set('Jóns S.', 'Jóns Saga. (D. III.)');
   worksAndAuthorsMapping.set('Jón Þorl.', 'Jón Þorláksson.');
@@ -152,7 +156,8 @@ export const getWorksAndAuthorsMapping = (): Map<string, string> => {
   worksAndAuthorsMapping.set('Knytl.', 'Knytlinga Saga. (E. I.)');
   worksAndAuthorsMapping.set('Konr.', 'Konráðs Saga. (G. III.)');
   worksAndAuthorsMapping.set('Korm.', 'Kormaks Saga. (D. II.)');
-  worksAndAuthorsMapping.set('Kristni S. or Kr. S.', 'Kristni Saga. (D. I. III.)');
+  worksAndAuthorsMapping.set('Kristni S.', 'Kristni Saga. (D. I. III.)');
+  worksAndAuthorsMapping.set('Kr. S.', 'Kristni Saga. (D. I. III.)');
   worksAndAuthorsMapping.set('Krók.', 'Króka Refs Saga. (D. V.)');
   worksAndAuthorsMapping.set('K. Þ. K.', 'Kristinn-réttr Þorláks ok Ketils = Kristinna-laga-þáttr. (B. I.)');
   worksAndAuthorsMapping.set('Landn.', 'Landnáma. (D. I.)');
@@ -187,7 +192,8 @@ export const getWorksAndAuthorsMapping = (): Map<string, string> => {
   worksAndAuthorsMapping.set('Ný Fél.', 'Ný Félags-rit.');
   worksAndAuthorsMapping.set('Ob.', 'Orms-bók. (C. I.)');
   worksAndAuthorsMapping.set('Od.', 'Odysseifs-kvæði, prose, 1829.');
-  worksAndAuthorsMapping.set('Odd. or S. Odd.', 'Stjörnu-Odda draumr. (D. V.)');
+  worksAndAuthorsMapping.set('S. Odd.', 'Stjörnu-Odda draumr. (D. V.)');
+  worksAndAuthorsMapping.set('Odd.', 'Stjörnu-Odda draumr. (D. V.)');
   worksAndAuthorsMapping.set('Og.', 'Oddrúnar-grátr. (A. II.)');
   worksAndAuthorsMapping.set('O. H. L.', 'Ólafs Saga Helga Legendaria. (E. I.)');
   worksAndAuthorsMapping.set('Ór.', 'Ólafs-ríma. (A. III)');
@@ -221,7 +227,8 @@ export const getWorksAndAuthorsMapping = (): Map<string, string> => {
   worksAndAuthorsMapping.set('Sks.', 'Konungs Skugg-sjá. (H. II.)');
   worksAndAuthorsMapping.set('Sksm.', 'Skáldskapar-mál. (C. I.)');
   worksAndAuthorsMapping.set('Skv.', 'Sigurðar-kviða. (A. II.)');
-  worksAndAuthorsMapping.set('Sl. or Sól.', 'Sólarljóð. (A. III.)');
+  worksAndAuthorsMapping.set('Sl.', 'Sólarljóð. (A. III.)');
+  worksAndAuthorsMapping.set('Sól.', 'Sólarljóð. (A. III.)');
   worksAndAuthorsMapping.set('Snót', 'Snót, poems.');
   worksAndAuthorsMapping.set('Stef. Ól.', 'Stefán Ólafsson.');
   worksAndAuthorsMapping.set('Stell.', 'Stellu-rímur.');

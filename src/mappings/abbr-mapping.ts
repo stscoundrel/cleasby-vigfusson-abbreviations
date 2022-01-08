@@ -20,7 +20,8 @@ export const getAbbreviationMapping = (): Map<string, string> => {
   abbreviationMapping.set('Brit. Mus.', 'British Museum.');
   abbreviationMapping.set('ch.', 'chapter.');
   abbreviationMapping.set('class.', 'classical.');
-  abbreviationMapping.set('Cod. or Cd.', 'Codex.');
+  abbreviationMapping.set('Cod.', 'Codex.');
+  abbreviationMapping.set('Cd.', 'Codex.');
   abbreviationMapping.set('cognom.', 'cognomen.');
   abbreviationMapping.set('collect.', 'collective.');
   abbreviationMapping.set('compar.', 'comparative.');
