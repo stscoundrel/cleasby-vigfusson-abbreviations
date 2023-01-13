@@ -53,7 +53,7 @@ describe('Abbreviation finder', () => {
     expect(result).toEqual(expected);
   });
 
-  test('Finds compund abbreviations (Issue #64)', () => {
+  test('Finds compound abbreviations (Issue #64)', () => {
     const content = 'Lorem ipsum dolor sit compd. dolor sit compds.';
     const expected = new Map();
 
