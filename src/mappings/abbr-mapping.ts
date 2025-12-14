@@ -152,7 +152,7 @@ export const getAbbreviationMapping = (): Map<string, string> => {
   abbreviationMapping.set('R.', 'Rimur.');
   abbreviationMapping.set('recipr.', 'reciprocally.');
   abbreviationMapping.set('redupl.', 'reduplicative.');
-  abbreviationMapping.set('reflex.', 'retlexive.');
+  abbreviationMapping.set('reflex.', 'reflexive.');
   abbreviationMapping.set('relat.', 'relative.');
   abbreviationMapping.set('S.', 'Saga.');
   abbreviationMapping.set('s. a.', 'sub anno.');

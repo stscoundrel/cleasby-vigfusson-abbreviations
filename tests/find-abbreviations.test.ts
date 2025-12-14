@@ -76,4 +76,15 @@ describe('Abbreviation finder', () => {
 
     expect(result).toEqual(expected);
   });
+
+  test('Reflexive has correct content (Issue #299)', () => {
+    const content = 'Ipsum reflex. dolor sit';
+    const expected = new Map();
+
+    expected.set('reflex.', 'reflexive.');
+
+    const result = findAbbreviations(content);
+
+    expect(result).toEqual(expected);
+  });
 });
